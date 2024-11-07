@@ -1,4 +1,6 @@
+//@ts-ignore
 "use client";
+
 import React, { Suspense } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { OrbitControls, PointerLockControls, useGLTF } from "@react-three/drei";
@@ -14,6 +16,7 @@ const SketchfabEmbed = () => {
         title="The Billiards Room"
         frameBorder="0"
         allowFullScreen
+        //@ts-ignore
         mozallowfullscreen="true"
         webkitallowfullscreen="true"
         allow="autoplay; fullscreen; xr-spatial-tracking"
